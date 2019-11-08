@@ -29,6 +29,7 @@ function showGifs() {
             // for(var i = 0; i < results.length; i++)
 
             for (var i = 0; i < results.length; i++) {
+                //if statement include ratings in
                 if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
 
                     var movieGifDiv = $("<div class='gif'>");
@@ -43,7 +44,7 @@ function showGifs() {
                     movieGifDiv.append(p);
                     movieGifDiv.append(gifImage);
 
-                    $("#gifs-appear-here").prepend(movieGifDiv);
+                    $("#gif-view").prepend(movieGifDiv);
                 }
             }
 
@@ -84,14 +85,16 @@ $("#searchBtn").on("click", function (event) {
 })
 
 $(document).on("click", ".gif-btn", showGifs);
-//adding a button into the array
+
+// make the images still
+
+    // on click animate the images
+
 renderButtons();
 
 
-//if statement include ratings in .text
 
 
 
-    // make the images still
 
-    // on click animate the images
+    
