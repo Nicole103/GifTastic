@@ -88,13 +88,7 @@ $(document).on("click", ".gif-btn", showGifs);
 
 // make the images still
 
-    // on click animate the images
+// on click animate the images
 
 renderButtons();
-
-
-
-
-
-
-    
+  
