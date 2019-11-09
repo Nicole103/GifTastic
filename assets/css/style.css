@@ -2,8 +2,10 @@ body {
     background-image: url("../images/Toy-Story-Wallpapers-Clouds-cool-images.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-    color: midnightblue;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-size: 38px;
+    color: rgb(25, 25, 31);
 
 }
 .gif-btn {
@@ -19,6 +21,8 @@ body {
     background-position: fixed;
     background-size: 100%;
     height: 380px;
+    text-align: center;
+
 
 }
 h1 {
