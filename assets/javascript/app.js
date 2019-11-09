@@ -96,11 +96,11 @@ $(document).ready(function () {
     $("#searchBtn").on("click", function () {
         
         var movieAdd = $("#add-movie").val().trim();
-        FormData.reset();
+       
         movie.push(movieAdd);
 
         renderButtons();
-        return false;
+       
 
     })
     // make the images still
